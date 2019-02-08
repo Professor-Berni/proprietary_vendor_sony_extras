@@ -12,12 +12,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-LOCAL_PATH := $(call my-dir)
-
-ifneq ($(filter ivy karin karin_windy satsuki sumire suzuran,$(TARGET_DEVICE)),)
-
-# Get non-open-source common extra files
-$(call inherit-product, kitakami-common-vendor-extras.mk)
-
-endif
