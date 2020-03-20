@@ -14,6 +14,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/sony/kitakami-common-extras/proprietary/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
