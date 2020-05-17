@@ -26,5 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libprotobuf-cpp-N.so:system/vendor/lib64/libprotobuf-cpp-N.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so
