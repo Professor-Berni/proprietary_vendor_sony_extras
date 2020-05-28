@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
