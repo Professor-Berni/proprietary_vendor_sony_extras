@@ -17,15 +17,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common-extras/proprietary/bin/tad_static:system/bin/tad_static \
     vendor/sony/kitakami-common-extras/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/kitakami-common-extras/proprietary/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libprotobuf-cpp-N.so:system/vendor/lib64/libprotobuf-cpp-N.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libprotobuf-cpp-N.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-N.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libqti-iop-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iop-client.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so
