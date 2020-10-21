@@ -15,6 +15,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common-extras/proprietary/bin/tad_static:system/bin/tad_static \
+    vendor/sony/kitakami-common-extras/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
     vendor/sony/kitakami-common-extras/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/kitakami-common-extras/proprietary/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
