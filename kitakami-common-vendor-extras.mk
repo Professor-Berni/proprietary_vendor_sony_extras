@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/kitakami-common-extras/proprietary/bin/tad_static:system/bin/tad_static \
-    vendor/sony/kitakami-common-extras/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
-    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so
+    vendor/sony/kitakami-common-extras/proprietary/bin/tad_static:$(TARGET_COPY_OUT_SYSTEM)/bin/tad_static \
+    vendor/sony/kitakami-common-extras/proprietary/lib64/lib-preload64.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-preload64.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
+    vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so
