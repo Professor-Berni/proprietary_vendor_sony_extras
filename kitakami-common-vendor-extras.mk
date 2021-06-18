@@ -14,10 +14,10 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/kitakami-common-extras/proprietary/bin/tad_static:system/bin/tad_static \
-    vendor/sony/kitakami-common-extras/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
-    vendor/sony/kitakami-common-extras/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
-    vendor/sony/kitakami-common-extras/proprietary/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
+    vendor/sony/kitakami-common-extras/proprietary/bin/tad_static:$(TARGET_COPY_OUT_SYSTEM)/bin/tad_static \
+    vendor/sony/kitakami-common-extras/proprietary/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.qcom.so \
+    vendor/sony/kitakami-common-extras/proprietary/lib64/lib-preload64.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-preload64.so \
+    vendor/sony/kitakami-common-extras/proprietary/lib64/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_latinimegoogle.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
