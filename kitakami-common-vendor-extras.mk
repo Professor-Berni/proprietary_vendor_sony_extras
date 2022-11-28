@@ -14,9 +14,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/kitakami-common-extras/proprietary/lib64/hw/audio.a2dp.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.a2dp.default.so \
     vendor/sony/kitakami-common-extras/proprietary/lib64/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_latinimegoogle.so \
-    vendor/sony/kitakami-common-extras/proprietary/lib/hw/audio.a2dp.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.a2dp.default.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
     vendor/sony/kitakami-common-extras/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
